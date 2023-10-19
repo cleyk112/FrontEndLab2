@@ -1,0 +1,64 @@
+table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    width: 25%;
+    height: 3vh;
+}
+table{
+    width:60%;
+}
+tr.st{
+    background-color: #038f8f;
+    color: #3A2214;
+}
+tr.st:hover{
+    background-color:#3A2214 ;
+    color: #038f8f ;
+}
+tr.nd{
+    background-color: #f5f503 ;
+    color: #7902F5;
+}
+tr.nd:hover{
+    background-color: #7902F5;
+    color: #f5f503 ;
+}
+.cube{
+    height: 10vh;
+    width: 10vh;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.one {
+    position: absolute;
+    left: 6vh;
+    transform: rotate(45deg);
+    background-color: aqua;
+}
+.two{
+    position: absolute;
+    transform: rotate(25deg);
+    top: 10vh;
+    background-color: yellow;
+}
+.three{
+    position: absolute;
+    transform: rotate(-25deg);
+    left: 13vh;
+    top: 10vh;
+    background-color: crimson;
+}
+.ein{
+    transform: translateX(10vh) rotate(45deg) ;
+    background-color: aqua;
+}
+.zwei{
+    transform: translateX(3vh) rotate(25deg);
+    background-color: yellow;
+}
+.drei{
+    transform: translateY(-10vh) translateX(17vh) rotate(-25deg) ;
+    background-color: crimson;
+}
